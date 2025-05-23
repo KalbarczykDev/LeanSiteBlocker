@@ -5,6 +5,7 @@
   "description": "Block specified Websites",
   "permissions": [
     "declarativeNetRequest",
+    "declarativeNetRequestFeedback",
     "storage"
   ],
   "host_permissions": [
