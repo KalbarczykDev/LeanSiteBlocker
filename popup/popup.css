@@ -1,0 +1,22 @@
+body {
+  font-family: sans-serif;
+  padding: 10px;
+  width: 300px;
+}
+
+input {
+  width: 200px;
+}
+
+button {
+  margin-left: 5px;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-top: 5px;
+}

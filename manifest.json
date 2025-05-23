@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Website Blocker",
+  "name": "Lean Site Blocker",
   "version": "1.0",
-  "description": "Block any website with a simple popup.",
+  "description": "Block specified Websites",
   "permissions": [
     "declarativeNetRequest",
     "storage"
@@ -14,7 +14,6 @@
     "service_worker": "background.js"
   },
   "action": {
-    "default_popup": "popup.html",
-    "default_title": "Website Blocker"
+    "default_popup": "popup/popup.html"
   }
 }
