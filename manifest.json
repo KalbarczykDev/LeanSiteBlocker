@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Website Blocker",
+  "version": "1.0",
+  "description": "Block any website with a simple popup.",
+  "permissions": [
+    "declarativeNetRequest",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Website Blocker"
+  }
+}
