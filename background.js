@@ -9,7 +9,8 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo) => {
     chrome.storage.local.get("blocked", (data) => {
       const blockedSites = data.blocked || [];
       for (const site of blockedSites) {
-        if (changeInfo.url.includes(site)) {
+        const url = new URL(changeInfo.url);
+        if (url.hostname === site || url.hostname.endsWith(`.${site}`)) {
           chrome.tabs.remove(tabId);
           break;
         }

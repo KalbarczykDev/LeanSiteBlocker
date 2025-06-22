@@ -3,7 +3,8 @@
   "name": "Lean Site Blocker",
   "version": "1.0",
   "description": "Block specified Websites",
-  "permissions": ["storage", "activeTab"],
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
   },
