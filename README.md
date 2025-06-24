@@ -7,12 +7,16 @@ when users try to visit blocked websites.
 
 ![LeanSiteBlocker](https://github.com/user-attachments/assets/f73196e5-3eb6-4868-9348-61fd6ce4fc6d)
 
-## Installation
+## Instalation
+1. Follow standard steps for installing chrome extensions
+[LeanSiteBlocker](https://chromewebstore.google.com/detail/mcgbmeofmblfiopcjphcbcjamdbipdcn?utm_source=item-share-cb)
 
-1. Go to `chrome://extensions`
-2. Enable **Developer mode**
-3. Click **“Load unpacked”**
-4. Select the folder containing this project
+## Local Development 
+1. Clone the repository or download latest release.
+2. Go to `chrome://extensions`
+3. Enable **Developer mode**
+4. Click **“Load unpacked”**
+5. Select the folder containing this project
 
 ## Usage
 
